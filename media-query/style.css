@@ -7,6 +7,9 @@ Celular: 600px até 768px
 Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
+
+/*TABLET*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     body {
@@ -15,6 +18,7 @@ Grandes telas: acima de 1200px */
 
     section#login {
         width: 80vw;
+        height: 280px;
         
     }
 
@@ -29,6 +33,7 @@ Grandes telas: acima de 1200px */
         width: 70%;
     }
 }
+/*DESKTOP */
 
 @media screen and (min-width: 992px) {
     
@@ -38,6 +43,7 @@ Grandes telas: acima de 1200px */
 
    section#login {
     width: 950px;
+    height: 350;
    }
 
    section#login > div#imagem {
@@ -56,6 +62,7 @@ Grandes telas: acima de 1200px */
    }
 
    div#formulario > p {
-    font-size: 1.2em;
+    font-size: 1.em;
+    margin: 20px 0px;
 }
 }
